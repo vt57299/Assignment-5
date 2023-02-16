@@ -18,11 +18,6 @@ class Student:
     
 obj = Student("Viv",55)
 
-# Printing Original values
-print("Before change")
-print(f"Name: {obj.getName()}")
-print(f"Roll number: {obj.getrollnumber()}\n")
-
 # Updating name and roll no.
 obj.setName("Vivek")
 obj.setrollnumber(60)
